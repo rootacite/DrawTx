@@ -1,0 +1,18 @@
+﻿<Window x:Class="DrawTx.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrawTx"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280 " MouseMove="Window_MouseMove">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas x:Name="Sysopt"  Height="720" Width="1280">
+                <Image x:Name="Plant"  Height="720" Canvas.Left="0" Canvas.Top="0" Width="1280"/>
+                <Image x:Name="control"  Height="720" Canvas.Left="0" Canvas.Top="0" Width="1280"/>
+            </Canvas>
+            
+        </Viewbox>
+    </Grid>
+</Window>
